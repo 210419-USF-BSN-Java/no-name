@@ -1,29 +1,37 @@
-# no-name
+# Project03 - Travel Planner (name?)
+## by Team Noname
+
+![Miyazaki](./images/miyazaki.png)  \
+**Project lead** \
+Miyazaki Hayao 
+
+
+
+**Development team** \
+Aliaksei, Dev, Felix, Kevin C, Tom 
 
 # User Stories
-A travel-planning app...
 ## Admin
 - Login
-- View users
-- view data viz
+- View users (data viz stretch?)
 
 ## User
+- Signup
 - Login
-- create account
 - plan trip
   - add destination 
-  - search flight prices/date/details (API?)
+  - search flight prices/date/details (Google API?)
     - book flight (API?)
-  - lodging (API?)
-  - food (API?)
-- search covid cases by city
+  - lodging (Google API?)
+  - food (Google API?)
+- search covid cases by city (move to system?)
 - Upgrade account to premium
 - Amazon product search (travel products)
 
-## Premium User
-- save searches
-- price comparison
+## Premium User (stretch? implementing fake payment could be pain point)
+- save searches (move to User if premium user is stretch)
+- price comparison 
 
 ## System
-- updates user to premium user after payment
-- email confirmation of payment/account creation/confirming email
+- updates user to premium user after ~payment (stretch?)
+- email confirmation of payment/account creation/confirming email (stretch?)
