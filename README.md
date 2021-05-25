@@ -1,4 +1,4 @@
-# Project03 - Travel Planner (name?)
+# Project03 - Canoe
 ## by Team Noname
 
 ![Miyazaki](./images/miyazaki.png)  \
@@ -14,24 +14,26 @@ Aliaksei, Dev, Felix, Kevin C, Tom
 ## Admin
 - Login
 - View users (data viz stretch?)
+- Freeze account
 
 ## User
-- Signup
-- Login
-- plan trip
-  - add destination 
-  - search flight prices/date/details (Google API?)
-    - book flight (API?)
-  - lodging (Google API?)
-  - food (Google API?)
-- search covid cases by city (move to system?)
-- Upgrade account to premium
-- Amazon product search (travel products)
+- User can signup
+- User can login
+- User can logout
+- User can view homepage
+- User can choose destination
+- User can save flights to trip
+- User can save lodging to trip
+- User can save local food options
+- User can save tourist attractions to trip
+- User can upload trip photos
+- User save/edit/delete/archive trip
 
-## Premium User (stretch? implementing fake payment could be pain point)
-- save searches (move to User if premium user is stretch)
-- price comparison 
 
 ## System
-- updates user to premium user after ~payment (stretch?)
 - email confirmation of payment/account creation/confirming email (stretch?)
+- displays user reviews
+
+## Stretch
+- User can upgrade account to premium with extra feature like Covid search, crime data (stretch)
+- System adds Amazon travel product search (stretch)
