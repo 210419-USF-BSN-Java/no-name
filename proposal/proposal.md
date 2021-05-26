@@ -30,7 +30,7 @@ Aliaksei, Dev, Felix, Kevin C, Tom
 - User can save tourist attractions to trip
 - User can upload and save photos to trip
 - User can save/edit/delete/archive trip
-
+    
 ## System
 - displays user reviews
 
