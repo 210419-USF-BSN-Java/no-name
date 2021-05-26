@@ -1,5 +1,5 @@
 # Basic Git Workflow for Team Noname
-
+Note: this is a modified version of "Gitflow" with an additional protective layer in the form of a dev branch. 
 
 ## Before making any changes
 1. `ls -a` To make sure you're sure in the correct directory. (ls -a from terminal should show .git)
@@ -13,7 +13,7 @@
 ## While coding
 1. Commit frequently with descriptive, concise messages. If you get into a messy situation and want to rollback to a previous commit:
    1. Rollback and nuke the bad code in the process:
-      1. `git log` then copy the SHA-hash (a long string of numbers) of the last working commit, then run `git reset --HARD <SHA-hash>`
+      1. `git log`  then copy the SHA-hash (a long string of numbers) of the last working commit, then run `git reset --HARD <SHA-hash>`
    2. Create a new branch off of the last working commit (you may want to look at the bad stuff later to figure something out):
       1. `git checkout -b <new-branch-name> <SHA-hash>` 
 ## After changes
@@ -21,4 +21,3 @@
 2. Push to origin with `git push`
 3. If the change is ready for the world to see on the main branch, make a pull request on Github for teammates to review the change. 
 
-Note: this is a modified version of "Gitflow" with an additional protective layer in the form of a dev branch. 
