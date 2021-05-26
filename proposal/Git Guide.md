@@ -11,9 +11,11 @@ Note: this is a modified version of "Gitflow" with an additional protective laye
   - `git checkout -b bug-fix/typing-bug`
 
 ## While coding
-1. Commit frequently with descriptive, concise messages. If you get into a messy situation and want to rollback to a previous commit:
+1. Commit frequently with descriptive, concise messages. There are multiple options for rolling back to previous commits in case you feel stuck in a bad situation. Here are two:
    1. Rollback and nuke the bad code in the process:
-      1. `git log`  then copy the SHA-hash (a long string of numbers) of the last working commit, then run `git reset --HARD <SHA-hash>`
+      1. `git log`  
+      2. Copy the SHA-hash (a long string of numbers) of the last working commit
+      3. run `git reset --HARD <SHA-hash>`
    2. Create a new branch off of the last working commit (you may want to look at the bad stuff later to figure something out):
       1. `git checkout -b <new-branch-name> <SHA-hash>` 
 ## After changes
