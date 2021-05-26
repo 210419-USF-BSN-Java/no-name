@@ -38,4 +38,3 @@ Aliaksei, Dev, Felix, Kevin C, Tom
 - User can upgrade account to premium with extra feature like Covid search, crime data
 - System adds Amazon travel product search to banner
 - System sends email confirmation during user signup process
-- 
