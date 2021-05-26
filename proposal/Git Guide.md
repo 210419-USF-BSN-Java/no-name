@@ -1,6 +1,8 @@
 # Basic Git Workflow for Team Noname
 Note: this is a modified version of "Gitflow" with an additional protective layer in the form of a dev branch. 
 
+DO NOT MERGE INTO MAIN. MAIN IS PRODUCTION READY
+
 ## Before making any changes
 1. `ls -a` To make sure you're sure in the correct directory. (ls -a from terminal should show .git)
 2. `git branch` to make sure you're in the dev branch 
@@ -11,7 +13,11 @@ Note: this is a modified version of "Gitflow" with an additional protective laye
   - `git checkout -b bug-fix/typing-bug`
 
 ## While coding
-1. Commit frequently with descriptive, concise messages. There are multiple options for rolling back to previous commits in case you feel stuck in a bad situation. Here are two:
+1. Stage and commit frequently with descriptive, concise messages. 
+   1. `git add .`
+   2. `git commit -m "fix such and such bug"`
+
+2. There are multiple options for rolling back to previous commits in case you feel stuck in a bad situation. Here are two:
    1. Rollback and nuke the bad code in the process:
       1. `git log`  
       2. Copy the SHA-hash (a long string of numbers) of the last working commit
